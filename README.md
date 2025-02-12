@@ -35,7 +35,7 @@ pip install rembg
 
 The script supports two modes of operation:
 
-Single Image Processing:
+### Single Image Processing:
 
 To process a single image, run the following command:
 
@@ -46,7 +46,7 @@ python remove_bg.py -i /path/to/your/image.jpg
 
 This will remove the background from the specified image and save it as a .png file, followed by transforming it to a .jpg file.
 
-Directory Processing:
+### Directory Processing:
 
 To process all images in a directory, run:
 
