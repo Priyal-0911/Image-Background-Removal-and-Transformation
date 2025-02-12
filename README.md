@@ -2,6 +2,8 @@
 
 This project provides a Python script to remove the background from images and transform them into a desired format. It supports both single-image processing and batch processing for directories of images.
 
+![Image Background Removal](https://github.com/Priyal-0911/Image-Background-Removal-and-Transformation/blob/d8e442cf6ca585790e9d85681001cdd12baa02b7/display.jpg)
+
 ## Features
 
 - Remove the background from images using the `rembg` library.
@@ -14,8 +16,7 @@ This project provides a Python script to remove the background from images and t
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/image-background-removal.git
-cd image-background-removal
+git clone https://github.com/Priyal-0911/Image-Background-Removal-and-Transformation.git
 ```
 
 2. Install dependencies:
@@ -40,7 +41,7 @@ To process a single image, run the following command:
 
 ```bash
 
-python script_name.py -i /path/to/your/image.jpg
+python remove_bg.py -i /path/to/your/image.jpg
 ```
 
 This will remove the background from the specified image and save it as a .png file, followed by transforming it to a .jpg file.
@@ -50,7 +51,7 @@ Directory Processing:
 To process all images in a directory, run:
 
 ```bash
-python script_name.py -d /path/to/your/images/directory/
+python remove_bg.py -d /path/to/your/images/directory/
 ```
 
 The script will process all images in the given directory, removing backgrounds and transforming them as described above.
@@ -63,13 +64,13 @@ The script will process all images in the given directory, removing backgrounds 
 ### Example
 
 ```bash
-python script_name.py -i /path/to/image.jpg
+python remove_bg.py -i /path/to/image.jpg
 ```
 
 Directory example:
 
 ```bash
-python script_name.py -d /path/to/images/
+python remove_bg.py -d /path/to/images/
 ```
 
 ## How It Works
@@ -105,15 +106,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feel free to open issues or submit pull requests. Contributions are always welcome!
 
-### Customizing the README:
-
-- Replace `yourusername` in the GitHub link with your actual GitHub username.
-- Make sure to update the `script_name.py` with the actual filename of your Python script if it's different from `script_name.py`.
-
-Once this is ready, just create a file called `README.md` and paste the content into it. You can then upload it to your GitHub repository.
-
-Let me know if you need any further adjustments or if you'd like me to explain any sections!
-
-```
-
-```
